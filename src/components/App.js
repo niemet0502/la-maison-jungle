@@ -1,7 +1,8 @@
+import Banner from "../components/Banner"
 function App() {
   return (
     <div className="App">
-      <h1>La maison jungle</h1>
+      <Banner />
     </div>
   );
 }
