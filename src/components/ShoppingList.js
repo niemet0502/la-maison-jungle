@@ -11,9 +11,11 @@ function ShoppingList() {
 ]
 
   return (
-    <div>
-      
-    </div>
+    <ul>
+      {plantList.map((plant) => (
+          <li>{plant}</li>
+      ))}
+    </ul> 
   )
 }
 
