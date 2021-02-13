@@ -3,13 +3,17 @@ export const plantList = [
 		name: 'monstera',
 		category: 'classique',
 		id: '1ed',
-    isBestSale: true
+    isBestSale: true,
+		water: 2,
+		light: 1
 	},
 	{
 		name: 'ficus lyrata',
 		category: 'classique',
 		id: '2ab',
-    isBestSale: false
+    isBestSale: false,
+		water: 2,
+		light: 1
 	},
 	{
 		name: 'pothos argenté',
@@ -21,25 +25,33 @@ export const plantList = [
 		name: 'yucca',
 		category: 'classique',
 		id: '4kk',
-    isBestSale: true
+    isBestSale: true,
+		water: 2,
+		light: 1
 	},
 	{
 		name: 'olivier',
 		category: 'extérieur',
 		id: '5pl',
-    isBestSale: false
+    isBestSale: false,
+		water: 2,
+		light: 1
 	},
 	{
 		name: 'géranium',
 		category: 'extérieur',
 		id: '6uo',
-    isBestSale: true
+    isBestSale: true,
+		water: 2,
+		light: 1
 	},
 	{
 		name: 'basilique',
 		category: 'extérieur',
 		id: '7ie',
-    isBestSale: false
+    isBestSale: false,
+		water: 2,
+		light: 1
 	},
 	{
 		name: 'aloe',
@@ -51,6 +63,8 @@ export const plantList = [
 		name: 'succulente',
 		category: 'plante grasse',
 		id: '9vn',
-    isBestSale: false
+    isBestSale: false,
+		water: 2,
+		light: 1
 	}
 ]
